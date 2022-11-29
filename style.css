@@ -52,7 +52,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     overflow: hidden;
-
+    transition: .1s linear;
 }
 
 header nav .menu {
@@ -397,3 +397,27 @@ header section .social .icons .icon2 a {
 header section .social .icons .icon2 a:hover {
     color: rgb(75, 144, 201);
 }
+
+/*
+@media screen and (max-width:956px){
+    header{
+        width: 83%;
+    }
+}
+
+@media screen and (max-width:752px){
+    header{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:775px){
+    header .logo{
+        left: 13%;
+    }
+
+    header section .content {
+        left: 340px;
+    }
+}
+*/
